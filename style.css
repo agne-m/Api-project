@@ -1,0 +1,85 @@
+.active {
+    color: green
+}
+
+body {
+    margin: 0;
+}
+
+header nav {
+    margin-bottom: 2rem;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #111;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.post-item{
+    background-color: #E7E9EB;
+    padding-left: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.post-title {
+    text-align: left;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.post-author, 
+.post-content{
+    padding: 20px;
+}
+
+.comments-wrapper{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.comments-wrapper .comment-item{
+    background-color: #FFF;
+    padding: 10px;
+    margin: 30px;
+    border-left: 8px solid green;
+    border-top: 1px solid gray;
+}
+
+#albums-wrapper{
+    display: grid;
+}
+
+#albums-wrapper .album-item{
+    background-color: #E7E9EB;
+    margin: 30px;
+    padding: 14px;
+    border-left: 2px solid #d335c4;
+}
+
+
